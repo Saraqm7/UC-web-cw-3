@@ -1,0 +1,36 @@
+h1{
+   font-family: monospace;
+    color: orange;
+}
+.containar{
+width: 500px;
+transition: all 0.5s;
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-wrap: wrap;
+}
+
+.box{
+width: 150px;
+height: 150px;
+background-color: teal;
+margin: 1px;
+border-radius: 10px;
+border: 2px solid darkkhaki;
+box-shadow: 2px black;
+}
+
+
+.box:hover{
+    background-color: turquoise;
+}
+
+body{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
